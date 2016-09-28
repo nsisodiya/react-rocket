@@ -1,0 +1,45 @@
+{
+  "name": "@nsisodiya/react-rocket",
+  "version": "1.0.0",
+  "description": "WIP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --content-base ./dist --port 8000 --colors --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsisodiya/react-rocket.git"
+  },
+  "author": "Narendra Sisodiya <narendra@narendrasisodiya.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsisodiya/react-rocket/issues"
+  },
+  "homepage": "https://github.com/nsisodiya/react-rocket#readme",
+  "dependencies": {
+    "babel-standalone": "^6.15.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "eslint": "^3.6.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "htmltojsx": "^0.2.5",
+    "if-loader": "^1.0.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "webpack-livereload-plugin": "^0.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.6.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.3.0",
+    "json-loader": "^0.5.4"
+  }
+}
